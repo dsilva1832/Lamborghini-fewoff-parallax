@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: black;
+}
+@font-face {
+  font-family: 'LaMacchina';
+  src: url('./font/La\ Macchina.ttf') format('truetype');
+}
+#header{
+    /* position: relative; */
+    position: absolute;
+}
+.written-logo{
+    font-family: 'LaMacchina', sans-serif;
+    font-size: 60px;
+}
+.fewoff{
+    font-family: "Merriweather", serif;
+}
+.fenomeno{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    /* position: absolute; */
+    position: relative;
+}
