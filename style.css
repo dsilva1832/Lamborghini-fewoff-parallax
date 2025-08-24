@@ -3,28 +3,36 @@
     padding: 0px;
     box-sizing: border-box;
     background: #181818;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 @font-face {
   font-family: 'LaMacchina';
   src: url('./font/La\ Macchina.ttf') format('truetype');
 }
-/* #header{
-   position: fixed;
-} */
+
 
 #header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    
+    overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent; 
+    scroll-behavior: smooth;
+}
 
 .written-logo{
     font-family: 'LaMacchina', sans-serif;
     font-size: 60px;
+    z-index: 10;
+}
+.logo-link{
+    z-index: 1;
+    vertical-align: middle;
 }
 .fewoff{
     font-family: "Merriweather", serif;
@@ -33,6 +41,12 @@
 
 .car-details{
     background-color: #181818;
+}
+#about{
+    overflow-x: hidden;
+}
+#footer{
+    overflow-x: hidden;
 }
  .abt-logo{
     padding-left: 5rem;
@@ -62,3 +76,4 @@
     /* position: relative; */
     /* background-attachment: fixed; */
 /* } */ 
+
