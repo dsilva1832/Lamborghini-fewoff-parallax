@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     background: #181818;
-    /* overflow-x: hidden; */
 }
 @font-face {
   font-family: 'LaMacchina';
@@ -19,11 +18,6 @@
     overflow-x: hidden;
 }
 
-/* ::-webkit-scrollbar { */
-    /* width: 0;  Remove scrollbar space */
-    /* background: transparent;  */
-    /* scroll-behavior: smooth; */
-/* } */
 
 .written-logo{
     font-family: 'LaMacchina', sans-serif;
